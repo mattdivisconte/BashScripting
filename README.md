@@ -2,33 +2,25 @@
 <h1>Bash Scripting Project to Parse Log Files to Identify Users</h1>
 
 <h2>Description</h2>
-For this project, we were tasked with discovering a rogue player and dealer to explain the losses that a fictional casino was experiencing.
+For this project, we were tasked with explaining the losses that a fictional casino was experiencing.  
 <br></br>
-We were provided with log files of the players and dealers at the various casino games over the course of a week.
+We were provided with log files of the players and dealers at the various casino games over the course of a week, and instructed to generate a variety of scripts to answer particular questions.
 
 <h2>Scripts walkthrough:</h2>
 
 <p align="center">
 Identify Loses: <br/>
-<!-- 
-## Getting Started
 
-1. [Hello.sh](scripts/hello-world.sh): get a simple output
-1. [Process.sh](scripts/process.sh): execute more than one command in a script
-1. [Interactive.sh](scripts/interactive.sh): a simple but very much interactive script
-1. [Special-Pattern.sh](scripts/special-pattern.sh): draw a diamond pattern with dots(.)
-1. [While-Read.sh](scripts/while-read.sh): read lines from a file using while loop
-1. [Read-Menu.sh](scripts/read-menu.sh): display a menu for system information
-1. [While-Menu.sh](scripts/while-menu.sh): a repeated menu for system information
-1. [Affect.sh](scripts/affect.sh): print a spinner loader
-1. [Colorful.sh](scripts/color.sh): provide you with the output of several colours
-1. [Convertlowercase.sh](scripts/convertlowercase.sh): convert data either from the file or standard input to lowercase
-1. [up.sh](scripts/up.sh): move up a directory in shell script
-1. [List-dir.sh](scripts/list-dir.sh): list files in a directory
-1. [Count-lines.sh](scripts/count-lines.sh): print out the line number of each file in current directory
-1. [Randomfile.sh](scripts/randomfile.sh): create unique file/folder automatically with date and time stamp
-1. [Random-emoji.sh](scripts/random-emoji.sh): print ramdom emojis
-1. [pomodoro.sh](scripts/pomodoro.sh): a simple pomodoro app written in bash  
+## My First Foray into Bash Scripting
+
+1. [find_player_count_at_loss_times.sh](Scripts/find_player_count_at_loss_times.sh): parses the win/loss player data to identify which player was present during losses 
+2. [Find_Roulette_Dealer_Date_Time_Manual.sh](Scripts/Find_Roulette_Dealer_Date_Time_Manual.sh): parses the dealer data to identify the dealer present during losses 
+3. [grep_find_loss_times.sh](Scripts/grep_find_loss_times.sh): parses the win/loss player data to generate a file for input for Find_Roulette_Dealer_Date_Time_Automated.sh
+4. [Find_Roulette_Dealer_Date_Time_Automated.sh](Scripts/Find_Roulette_Dealer_Date_Time_Automated.sh): script which uses the file created with grep_find_loss_times.sh as input to identify dealers working at times of losses
+5. [roulette_dealer_finder_by_time.sh](Scripts/roulette_dealer_finder_by_time.sh): script to find the roulette dealer at the inputted date and time in the future
+6. [/roulette_dealer_finder_by_time_and_game.sh](Scripts/roulette_dealer_finder_by_time_and_game.sh): script to find the dealer of a particular game at a particular time, with my first attempt at ASCII "art" since my BBS days
+<!-- 
+
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
