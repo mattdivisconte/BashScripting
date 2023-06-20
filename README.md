@@ -16,9 +16,10 @@ We were provided with log files of the players and dealers at the various casino
 6. [roulette_dealer_finder_by_time_and_game.sh](Scripts/roulette_dealer_finder_by_time_and_game.sh): script to find the dealer of a particular game at a particular time, with my first attempt at ASCII "art" since my BBS days
 
 
-<!-- 
+
 <br />
 Roulette Dealer Finder by Time and Game:  <br/>
-<img src="https://imgur.com/a/OaZufZh" height="80%" width="80%" alt="Roulette Dealer Finder by Time and Game"/>
+<img src="https://i.imgur.com/Dm8xcFs.jpg" height="80%" width="80%" alt="Roulette Dealer Finder by Time and Game"/>
 <br />
+<!--
 -->
