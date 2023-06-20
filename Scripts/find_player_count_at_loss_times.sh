@@ -7,4 +7,4 @@
 # sorts alphabetically then counts the number of duplicate lines then sorts again by number
 # shows the top 10 lines
 
-grep "-" *_win_loss_player_data | awk '{for (i=4; i<=NF; i++) print $i}' | sed s/","/" "/g | awk '{for (i=1; i<=NF; i++) print $i}' | sort | uniq -c | sort | head > player_count_at_loss_times
+grep "-" *_win_loss_player_data.txt | awk '{for (i=4; i<=NF; i++) print $i}' | sed s/","/" "/g | awk '{for (i=1; i<=NF; i++) print $i}' | sort | uniq -c | sort | head > player_count_at_loss_times
