@@ -1,5 +1,5 @@
-# BashScripting
-<h1>Bash Scripting Project to Parse Log Files to Identify Users</h1>
+# Bash Scripting
+Scripting project for Bootcamp
 
 <h2>Description</h2>
 For this project, we were tasked with explaining the losses that a fictional casino was experiencing.  
